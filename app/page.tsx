@@ -139,7 +139,7 @@ export default function Home() {
                                     : 'font-bold text-black'
                             }`}
                         >
-                            올공 참정권 캠페인
+                            올공키링
                         </span>
                     </div>
 
