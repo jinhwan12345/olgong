@@ -144,9 +144,6 @@ export default function Home() {
                     </div>
 
                     <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-400">
-                        <a href="#meaning" className="hover:text-white transition-colors">
-                            소개
-                        </a>
                         <a href="#symbol-meaning" className="hover:text-white transition-colors">
                             심볼
                         </a>
@@ -555,60 +552,6 @@ export default function Home() {
                                     AI 다운로드
                                 </a>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* Olgong Project Meaning Section */}
-            <section id="meaning" className="py-20 bg-zinc-900/30 border-b border-zinc-900">
-                <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-8">
-                    <span className="text-xs font-semibold tracking-wider text-rose-500 uppercase">About Olgong</span>
-                    <h2 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
-                        원가와 배송비만 받고 투명하게 판매합니다
-                    </h2>
-
-                    <div className="space-y-6 text-zinc-300 text-base sm:text-lg font-light leading-relaxed max-w-2xl mx-auto">
-                        <p>
-                            잠실민주화 정신 확산을 위해{' '}
-                            <strong className="text-zinc-200 font-semibold">올공키링</strong>과{' '}
-                            <strong className="text-zinc-200 font-semibold">신전대협</strong>이 뜻을 함께 합니다.
-                        </p>
-                        <p>
-                            현장에서만 배포하던 중,{' '}
-                            <span className="text-white font-medium">&quot;온라인으로도 사고 싶다&quot;</span>,{' '}
-                            <span className="text-white font-medium">
-                                &quot;지방에 살아서 현장에 직접 참여하지 못해 아쉽다&quot;
-                            </span>
-                            는 요청이 계속 이어졌습니다.
-                        </p>
-                        <p>많은 분들이 일상 속에서 뜻을 함께 나눌 수 있도록 스마트스토어에서 정성껏 준비했습니다.</p>
-                    </div>
-
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto pt-6 text-left">
-                        <div className="p-5 rounded-xl bg-zinc-950 border border-zinc-800">
-                            <span className="text-zinc-500 text-xs font-semibold uppercase tracking-wider block">
-                                판매 마진
-                            </span>
-                            <span className="text-2xl font-black text-rose-500 block mt-1">0 %</span>
-                        </div>
-                        <div className="p-5 rounded-xl bg-zinc-950 border border-zinc-800">
-                            <span className="text-zinc-500 text-xs font-semibold uppercase tracking-wider block">
-                                배포 목적
-                            </span>
-                            <span className="text-lg font-bold text-white block mt-1">심볼 확산</span>
-                        </div>
-                        <div className="p-5 rounded-xl bg-zinc-950 border border-zinc-800">
-                            <span className="text-zinc-500 text-xs font-semibold uppercase tracking-wider block">
-                                소재 상세
-                            </span>
-                            <span className="text-lg font-bold text-white block mt-1">아크릴 + 메달</span>
-                        </div>
-                        <div className="p-5 rounded-xl bg-zinc-950 border border-zinc-800">
-                            <span className="text-zinc-500 text-xs font-semibold uppercase tracking-wider block">
-                                스토어 현황
-                            </span>
-                            <span className="text-lg font-bold text-emerald-400 block mt-1">즉시 구매가능</span>
                         </div>
                     </div>
                 </div>
